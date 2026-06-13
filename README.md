@@ -298,7 +298,12 @@ Not pluggable APIs, but the legal tripwires most likely to surprise a foreign bu
 
 ## Related lists
 
-Focused single-topic lists worth a look when you need more depth in one area:
+Part of Seoulstart's Korea list family:
+
+- [Awesome Living in Korea](https://github.com/seoulstart/awesome-living-in-korea#readme) — for foreign residents: visas, housing, healthcare, taxes, work.
+- [Awesome Korea Travel](https://github.com/seoulstart/awesome-korea-travel#readme) — for visitors: trip planning, transit, cities, things to do.
+
+Other focused lists worth a look:
 
 - [public-apis-4Kr](https://github.com/yybmion/public-apis-4Kr) — broad catalog of APIs available for Korean services.
 - [awesome-mcp-korea](https://github.com/darjeeling/awesome-mcp-korea) — full catalog of MCP servers for the Korean market.
@@ -312,3 +317,7 @@ This list makes no guarantee about the accuracy, security, or current availabili
 ## License
 
 [CC0](LICENSE): to the extent possible under law, the curation in this list is dedicated to the public domain. Linked resources retain their own licenses.
+
+---
+
+Maintained by [Seoulstart](https://seoulstart.com).
