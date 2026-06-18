@@ -2,7 +2,7 @@
 
 ![resources](https://img.shields.io/badge/resources-80%2B-coral) ![last verified](https://img.shields.io/badge/verified-2026--06--10-blue) ![license](https://img.shields.io/badge/license-CC0-lightgrey)
 
-> Everything you need to ship a product into the Korean market, curated for foreign and AI-assisted builders.
+> Open-source list of the APIs, SDKs, and MCP servers for building and shipping a product into the Korean market: Korean payment gateways and Stripe alternatives, identity verification (본인인증), Kakao and Naver login, Naver and Kakao Maps, address lookup, and compliance, curated for foreign and AI-assisted builders.
 
 Korea runs on a different stack than the West. Stripe coverage is thin, Google Maps barely works, identity verification is often mandatory, and KakaoTalk (not email or SMS) is the channel users expect. The official docs are usually Korean-only, and most services assume you already hold a Korean account, phone number, and business registration.
 
@@ -41,6 +41,7 @@ This axis is about a Korean *presence*, not nationality. A "presence" means eith
 - [🏛️ Public & Government Data](#️-public--government-data)
 - [🛒 Commerce & Logistics](#-commerce--logistics)
 - [⚖️ Compliance Gotchas](#️-compliance-gotchas)
+- [FAQ](#faq)
 - [Contributing](#contributing)
 
 ---
@@ -309,6 +310,27 @@ Other focused lists worth a look:
 
 - [public-apis-4Kr](https://github.com/yybmion/public-apis-4Kr) — broad catalog of APIs available for Korean services.
 - [awesome-mcp-korea](https://github.com/darjeeling/awesome-mcp-korea) — full catalog of MCP servers for the Korean market.
+
+## FAQ
+
+Short answers to the questions foreign and AI builders ask most when shipping into Korea. Each links to the relevant section; verify against the official source before you build.
+
+**Can you accept payments in Korea without a Korean business entity?**
+Partly. Direct Korean payment gateway (PG) contracts almost always require a Korean business registration, but global merchant-of-record and aggregator platforms like [PortOne Global](#-payments) let you accept Korean payment methods (cards, KakaoPay, Naver Pay, Toss) from abroad. See [Payments](#-payments).
+
+**What is the Stripe alternative in Korea?**
+Stripe coverage is partial, so most teams use a Korean PG plus the wallet trio. [Toss Payments](#-payments) and [NICEPAY](#-payments) have the best developer experience, and [PortOne](#-payments) fronts all major PGs through one API. See [Payments](#-payments).
+
+**Do you need real-name identity verification (본인인증) to launch?**
+Often yes. Many Korean services require 본인인증 through government-designated providers ([NICE](#-identity--authentication), [KCB](#-identity--authentication)). The barrier is a Korean business to contract with the provider, not nationality: a foreign resident with an Alien Registration Card (ARC / 외국인등록증) can complete 본인인증 as an end user. See [Identity & Authentication](#-identity--authentication).
+
+**Why doesn't Google Maps work in Korea, and what do you use instead?**
+Korean law restricts export of high-resolution map data, so Google disabled turn-by-turn and detailed mapping. Use [Naver Maps or Kakao Maps](#️-maps--location), which licensed the government data. See [Maps & Location](#️-maps--location).
+
+**How do users log in to Korean apps?**
+Kakao and Naver OAuth, not email or SMS. [Kakao Login](#-identity--authentication) accepts foreign phone numbers and has English docs. See [Identity & Authentication](#-identity--authentication).
+
+<sub>[↑ back to top](#contents)</sub>
 
 ## Contributing
 
