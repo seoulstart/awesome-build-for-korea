@@ -10,6 +10,8 @@ This list is the map through that wall. Every entry is annotated for the things 
 
 What is curated here is the **builder's stack**: the resources you reach for at each layer of shipping into Korea, judged by how usable they are from abroad. The aim is breadth with honest annotations, not a raw dump of every Korean API.
 
+Also available in: [한국어](README.ko.md) · [日本語](README.ja.md) · [简体中文](README.zh.md) · [繁體中文](README.zh-Hant.md) · [हिन्दी](README.hi.md) · [Español](README.es.md) · [Português](README.pt.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Italiano](README.it.md) · [Русский](README.ru.md) · [Tiếng Việt](README.vi.md) · [Bahasa Indonesia](README.id.md) · [Bahasa Melayu](README.ms.md) · [العربية](README.ar.md)
+
 ### How to read the foreigner-access signal
 
 The 🛂 column is the whole point of this list, and it is also the hardest thing to get right. **✅** means confirmed usable from abroad with no Korean presence. **⚠️** means there are hurdles *or* the access path could not be fully confirmed (treat it as "verify before you build"). **❌** means confirmed blocked without a Korean presence.
