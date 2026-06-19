@@ -1,6 +1,6 @@
 # Awesome Build for Korea [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-![resources](https://img.shields.io/badge/resources-80%2B-coral) ![last verified](https://img.shields.io/badge/verified-2026--06--10-blue) ![license](https://img.shields.io/badge/license-CC0-lightgrey)
+![resources](https://img.shields.io/badge/resources-85%2B-coral) ![last verified](https://img.shields.io/badge/verified-2026--06--19-blue) ![license](https://img.shields.io/badge/license-CC0-lightgrey)
 
 > Open-source list of the APIs, SDKs, and MCP servers for building and shipping a product into the Korean market: Korean payment gateways and Stripe alternatives, identity verification (본인인증), Kakao and Naver login, Naver and Kakao Maps, address lookup, and compliance, curated for foreign and AI-assisted builders.
 
@@ -40,6 +40,7 @@ This axis is about a Korean *presence*, not nationality. A "presence" means eith
 - [🔌 MCP Servers](#-mcp-servers)
 - [🏛️ Public & Government Data](#️-public--government-data)
 - [🛒 Commerce & Logistics](#-commerce--logistics)
+- [🚀 Startup Support & Funding](#-startup-support--funding)
 - [⚖️ Compliance Gotchas](#️-compliance-gotchas)
 - [FAQ](#faq)
 - [Contributing](#contributing)
@@ -283,6 +284,29 @@ Selling physical goods or building on a Korean storefront. Note the entity wall:
 
 ---
 
+## 🚀 Startup Support & Funding
+
+If you are not just calling Korean APIs but founding a company here, Korea runs a deep stack of government grants, a dedicated startup-visa track, and private accelerators. The honest catch: programs split cleanly into two groups. A handful are built for non-Korean founders and let you apply from abroad in English (KSGC, the Global Startup Center, SparkLabs). The much larger domestic grant pool (the 예비/초기/창업도약 packages, TIPS) does not bar foreigners on paper, but it assumes a registered Korean company, which in turn needs an Alien Registration Card (ARC) or a foreign-investment route first. Start with the foreigner-facing programs and the visa track, then unlock the domestic grants once you have residency and an entity.
+
+| Program | What you get | 🌐 | 🛂 |
+|---|---|---|---|
+| [K-Startup Grand Challenge (KSGC)](https://ksgc.global/) | Flagship government accelerator for non-Korean founders: travel stipend, prize money, Pangyo/Gangnam workspace, and a startup-visa (D-8-4) recommendation for up to 3 co-founders. No Korean entity needed to apply | EN | ✅ CEO must be non-Korean; apply from abroad |
+| [Seoul Global Startup Center (GSC)](https://www.startup-korea.com/) | The landing hub for foreign founders in Gangnam: free workspace, English-speaking visa and incorporation help, OASIS enrollment, investor intros, and an annual non-dilutive commercialization grant (around ₩50M to ₩80M) for foreign-founded tech startups | EN | ✅ built for foreign entrepreneurs |
+| [OASIS Startup Visa Track (D-8-4 / D-10-2)](http://www.oasisvisa.com/about.html) | Points-based path to the technology startup visa (창업비자): entrepreneurship courses, mentoring, incubation, IP support. OASIS-9 adds a commercialization grant and a 6-month preparation visa | EN~ | ⚠️ most points require being in Korea first; the D-8-4(S) special track can be applied for via your local Korean embassy |
+| [K-Startup Portal (k-startup.go.kr)](https://www.k-startup.go.kr/) | The central listing of every government startup program, open call, and application link. A directory, not a program | EN~ | ⚠️ usable, but foreigners must first register real-name ID via [siren24.com](https://www.siren24.com) |
+| [Startup Packages (예비창업 / 초기창업 / 창업도약)](https://www.kised.or.kr/menu.es?mid=a10205020000) | Domestic grants run by KISED, scaling with company age: Pre-Startup, Early-stage, and Leap packages | KO | ❌ built for residents; needs a Korean business registration, which needs an ARC or a foreign-investment route first |
+| [TIPS (Tech Incubator Program)](https://www.jointips.or.kr/global/) | Large R&D grants, with Scale-up and Global TIPS tiers on top. Routed through accredited operating companies that must recommend you | EN~ | ⚠️ needs a Korean entity plus operating-company sponsorship; Global TIPS expects significant overseas VC |
+| [SparkLabs Korea](https://www.sparklabs.co.kr/sp/program.php) | Private accelerator: seed investment for equity, a multi-week program, and a large mentor network, run in batches each year | EN | ✅ accepts applications globally |
+
+Two honest caveats:
+
+- **The residency wall is the recurring gate.** Every domestic grant ultimately assumes a registered Korean company, and you cannot register one without an ARC (a long-stay visa) or a KOTRA foreign-investment declaration. The visa track (OASIS -> D-10-2 -> D-8-4) exists precisely to get a founder across that wall, so sequence it first.
+- **Born2Global (now GDIN) is commonly mislisted here.** It is an *outbound* program that helps Korean startups expand overseas, not an inbound resource for foreign founders entering Korea. Skip it unless you already run a Korean entity and want help reaching a third market.
+
+<sub>[↑ back to top](#contents)</sub>
+
+---
+
 ## ⚖️ Compliance Gotchas
 
 Not pluggable APIs, but the legal tripwires most likely to surprise a foreign builder. Verify against the official source before relying on any of these.
@@ -329,6 +353,9 @@ Korean law restricts export of high-resolution map data, so Google disabled turn
 
 **How do users log in to Korean apps?**
 Kakao and Naver OAuth, not email or SMS. [Kakao Login](#-identity--authentication) accepts foreign phone numbers and has English docs. See [Identity & Authentication](#-identity--authentication).
+
+**Is there startup funding or a startup visa for foreigners in Korea?**
+Yes. The [K-Startup Grand Challenge](#-startup-support--funding) accelerator and the Global Startup Commercialization grant are run in English for non-Korean founders, and the [OASIS track](#-startup-support--funding) is a points-based path to the D-8-4 technology startup visa. The larger domestic grant pool (the 예비/초기/창업도약 packages, TIPS) generally requires a registered Korean company first. See [Startup Support & Funding](#-startup-support--funding).
 
 <sub>[↑ back to top](#contents)</sub>
 
