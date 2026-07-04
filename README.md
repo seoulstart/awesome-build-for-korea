@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/seoulstart-awesome-build-for-korea-badge.png)](https://mseep.ai/app/seoulstart-awesome-build-for-korea)
+
 # Awesome Build for Korea [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 ![resources](https://img.shields.io/badge/resources-85%2B-coral) ![last verified](https://img.shields.io/badge/verified-2026--06--19-blue) ![license](https://img.shields.io/badge/license-CC0-lightgrey)
