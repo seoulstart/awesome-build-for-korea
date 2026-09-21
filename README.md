@@ -334,6 +334,7 @@ Other focused lists worth a look:
 
 - [public-apis-4Kr](https://github.com/yybmion/public-apis-4Kr) — broad catalog of APIs available for Korean services.
 - [awesome-mcp-korea](https://github.com/darjeeling/awesome-mcp-korea) — full catalog of MCP servers for the Korean market.
+- [FeeGuard](https://feeguard.dev) — Checks Stripe Connect refunds and disputes for unreversed transfers, unadjusted application fees, and uncovered platform losses.
 
 ## FAQ
 
