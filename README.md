@@ -55,7 +55,7 @@ If you are building with Claude, Cursor, or another agent and want it to call Ko
 |---|---|---|---|---|
 | [PortOne MCP](https://github.com/portone-io/mcp-server) | Payments across Toss, KakaoPay, NaverPay, Korean card PGs through one endpoint (official) | EN | ✅ | MCP |
 | [korea-stock-mcp](https://github.com/jjlabsio/korea-stock-mcp) | DART disclosures + KRX (KOSPI/KOSDAQ) prices and filings | KO | ✅ | MCP |
-| [law-mcp](https://github.com/finalchild/law-mcp) | Korean statutes via the national law database (law.go.kr) | KO | ✅ | MCP |
+| [korean-law-mcp](https://github.com/chrisryugj/korean-law-mcp) | Korean statutes, ordinances and court rulings from the Ministry of Government Legislation (법제처) API | EN~ | ✅ | MCP |
 | [Upstage Solar](https://www.upstage.ai) | Bilingual Korean/English LLM, OpenAI-compatible, global signup | EN | ✅ | SDK |
 
 See the full [MCP Servers](#-mcp-servers) section for more.
@@ -106,7 +106,7 @@ Stripe coverage in Korea is partial, so builders use a Korean payment gateway (P
 
 | Service | What you get | 🌐 | 🔑 | 🛂 | 💰 | 🤖 |
 |---|---|---|---|---|---|---|
-| [PortOne (포트원)](https://www.portone.io/) | Single API fronting all major Korean PGs + wallets; official MCP server | EN~ | key | ⚠️ Korean business to go live (sandbox open) | freemium | MCP |
+| [PortOne (포트원)](https://www.portone.io/) | Single API fronting all major Korean PGs + wallets; official MCP server; V2 browser SDK is `@portone/browser-sdk` (V1 was iamport) | EN~ | key | ⚠️ Korean business to go live (sandbox open) | freemium | MCP |
 | [PortOne Global](https://docs.portone.cloud/) | Cross-border orchestration for non-Korean entities (SEA + Korea) | EN | key | ✅ built for global merchants | paid | SDK |
 | [Bootpay (부트페이)](https://www.bootpay.ai/) | Lighter PG aggregator popular with Korean indie devs | KO | key | ⚠️ unverified | freemium | SDK |
 
@@ -114,8 +114,8 @@ Stripe coverage in Korea is partial, so builders use a Korean payment gateway (P
 
 | Service | What you get | 🌐 | 🔑 | 🛂 | 💰 | 🤖 |
 |---|---|---|---|---|---|---|
-| [Toss Payments (토스페이먼츠)](https://www.tosspayments.com/) | #2 PG by volume; strong DX; covers cards + all wallets | EN~ | key | ⚠️ Korean business to go live | paid | SDK |
-| [NICEPAY (나이스페이먼츠)](https://www.nicepay.co.kr/) | Long-standing PG; Stripe's local processor; English GitHub manual | EN~ | key | ⚠️ Korean business registration | paid | SDK |
+| [Toss Payments (토스페이먼츠)](https://www.tosspayments.com/) | #2 PG by volume; strong DX; covers cards + all wallets; SDK v2 (`@tosspayments/tosspayments-sdk`) replaces the v1 widget and payment SDKs | EN~ | key | ⚠️ Korean business to go live | paid | SDK |
+| [NICEPAY (나이스페이먼츠)](https://www.nicepay.co.kr/) | Long-standing PG; English GitHub manual | EN~ | key | ⚠️ Korean business registration | paid | SDK |
 | [KG Inicis (KG이니시스)](https://www.inicis.com/) | #1 PG by transaction volume | KO | cert | ⚠️ Korean business; integrate via PortOne | paid | REST |
 | [NHN KCP](https://kcp.co.kr/) | 3rd-largest PG; English developer portal | EN~ | cert | ⚠️ Korean e-commerce compliance audit | paid | REST |
 | [Danal (다날)](https://developers.danalpay.com/) | Carrier billing (통신과금) leader; also cards/gift cards | KO | key | ⚠️ Korean business (사업자번호 required) | paid | REST |
@@ -135,7 +135,7 @@ Stripe coverage in Korea is partial, so builders use a Korean payment gateway (P
 
 | Service | What you get | 🌐 | 🔑 | 🛂 | 💰 | 🤖 |
 |---|---|---|---|---|---|---|
-| [Stripe (Korea methods)](https://docs.stripe.com/payments/countries/korea) | Local cards + KakaoPay/NaverPay/PAYCO/Samsung Pay via NICEPay; KRW, recurring | EN | key | ✅ available to accounts in 29 countries | paid | SDK |
+| [Stripe (Korea methods)](https://docs.stripe.com/payments/countries/korea) | Local cards + KakaoPay/NaverPay/PAYCO/Samsung Pay through Stripe's local processor partner; KRW, recurring on cards, KakaoPay and Naver Pay | EN | key | ✅ available to accounts in 28 countries (US, UK, Japan, Singapore, Hong Kong, most of the EU) | paid | SDK |
 | [Paddle](https://www.paddle.com/) | Merchant of record; KRW, local cards + wallets; tax handled | EN | key | ✅ no Korean entity or bank needed | paid | SDK |
 | [KOMOJU](https://en.komoju.com/payment-methods/korea/) | Korean cards + KakaoPay/NaverPay/Toss/PAYCO + carrier billing | EN | key | ✅ no local entity for most methods | paid | SDK |
 | [Paymentwall](https://www.paymentwall.com/) | KakaoPay/Toss/PAYCO for foreign merchants via one API | EN | key | ⚠️ verify (last confirmed 2020) | paid | SDK |
@@ -232,7 +232,7 @@ Real, repo-confirmed MCP servers for Korean services, so an agent (Claude, Curso
 | [PortOne MCP](https://github.com/portone-io/mcp-server) | PortOne payment docs, channels, payment history | official | EN | ✅ | free |
 | [PortOne Global MCP](https://github.com/iamport-intl/portone-global-mcp-server) | PortOne Global docs + OpenAPI schemas | official | EN | ✅ | free |
 | [korea-stock-mcp](https://github.com/jjlabsio/korea-stock-mcp) | DART disclosures + KRX prices/financials | community | KO | ✅ | free |
-| [law-mcp](https://github.com/finalchild/law-mcp) | Korean statutes via law.go.kr | community | KO | ✅ | free |
+| [korean-law-mcp](https://github.com/chrisryugj/korean-law-mcp) | Statutes, ordinances and court rulings via the Ministry of Government Legislation (법제처) Open API; the hosted server works without a key at a shared rate limit (your own key needs a Korean phone or i-PIN) | community | EN~ | ✅ | free |
 | [assembly-api-mcp](https://github.com/hollobit/assembly-api-mcp) | National Assembly bills, schedules, budget | community | KO | ✅ | free |
 | [mcp-korea-tourism-api](https://github.com/harimkang/mcp-korea-tourism-api) | Korea Tourism Org attractions/events/stays | community | EN~ | ✅ | free |
 | [kakao-navigation-mcp-server](https://github.com/CaChiJ/kakao-navigation-mcp-server) | Kakao geocode + routing + transit + place search | community | KO | ⚠️ Kakao key | free |
