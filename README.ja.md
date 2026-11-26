@@ -12,7 +12,7 @@
 
 - [PortOne MCP](https://github.com/portone-io/mcp-server) - Toss、KakaoPay、NaverPayの決済を1つの公式MCPエンドポイントで。
 - [Upstage Solar](https://www.upstage.ai) - 韓国語/英語のバイリンガルLLM、OpenAI互換、グローバル登録。
-- [Kakaoログイン](https://developers.kakao.com/docs/latest/en/kakaologin/rest-api) - 約4,700万ユーザー向けOAuth、英語ドキュメント、海外電話番号OK。
+- [Kakaoログイン](https://developers.kakao.com/docs/en/kakaologin/rest-api) - 約4,700万ユーザー向けOAuth、英語ドキュメント、海外電話番号OK。
 - [公共データポータル (data.go.kr)](https://www.data.go.kr/en/index.do) - 7万件以上の政府データセット、英語ポータル、メール登録。
 - [Stripe（韓国の決済手段）](https://docs.stripe.com/payments/countries/korea) - 韓国法人なしで韓国のカードとウォレットに対応。
 

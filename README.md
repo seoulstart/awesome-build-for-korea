@@ -56,7 +56,6 @@ If you are building with Claude, Cursor, or another agent and want it to call Ko
 | [PortOne MCP](https://github.com/portone-io/mcp-server) | Payments across Toss, KakaoPay, NaverPay, Korean card PGs through one endpoint (official) | EN | ✅ | MCP |
 | [korea-stock-mcp](https://github.com/jjlabsio/korea-stock-mcp) | DART disclosures + KRX (KOSPI/KOSDAQ) prices and filings | KO | ✅ | MCP |
 | [law-mcp](https://github.com/finalchild/law-mcp) | Korean statutes via the national law database (law.go.kr) | KO | ✅ | MCP |
-| [KMA-WEATHER-MCP](https://github.com/woongaro/KMA-WEATHER-MCP) | Korea Meteorological Administration forecasts and conditions | KO | ✅ | MCP |
 | [Upstage Solar](https://www.upstage.ai) | Bilingual Korean/English LLM, OpenAI-compatible, global signup | EN | ✅ | SDK |
 
 See the full [MCP Servers](#-mcp-servers) section for more.
@@ -82,18 +81,18 @@ The biggest surprise for foreign builders: many Korean services require **real-n
 
 | Service | What you get | 🌐 | 🔑 | 🛂 | 💰 | 🤖 |
 |---|---|---|---|---|---|---|
-| [Kakao Login (카카오 로그인)](https://developers.kakao.com/docs/latest/en/kakaologin/rest-api) | OAuth + OIDC; ~47M users; English docs | EN | oauth | ✅ foreign phone accepted; business verification at scale | free | SDK |
+| [Kakao Login (카카오 로그인)](https://developers.kakao.com/docs/en/kakaologin/rest-api) | OAuth + OIDC; ~47M users; English docs | EN | oauth | ✅ foreign phone accepted; business verification at scale | free | SDK |
 | [Naver Login (네이버 로그인)](https://developers.naver.com/docs/login/overview/overview.md) | OAuth; dominant portal login | EN~ | oauth | ⚠️ Korean-only portal, app review | free | REST |
-| [Apple Sign In](https://developer.apple.com/sign-in-with-apple/) | Standard Apple OAuth; mandatory if your iOS app offers third-party login | EN | oauth | ✅ global Apple Developer Program | paid | SDK |
+| [Apple Sign In](https://developer.apple.com/documentation/signinwithapple) | Standard Apple OAuth; mandatory if your iOS app offers third-party login | EN | oauth | ✅ global Apple Developer Program | paid | SDK |
 | [Google Sign-In](https://developers.google.com/identity) | Standard Google OAuth; common among younger Korean users | EN | oauth | ✅ global GCP | free | SDK |
 
 **Simple authentication (간편인증, app-based, no resident number)**
 
 | Service | What you get | 🌐 | 🔑 | 🛂 | 💰 | 🤖 |
 |---|---|---|---|---|---|---|
-| [Kakao Certification / Business Auth](https://developers.kakao.com/docs/latest/en/business-auth/rest-api) | KakaoTalk-based identity auth; CI/DI via designated channel | EN | oauth | ⚠️ business verification required | freemium | REST |
+| [Kakao Certification / Business Auth](https://developers.kakao.com/docs/en/business-auth/rest-api) | KakaoTalk-based identity auth; CI/DI via designated channel | EN | oauth | ⚠️ business verification required | freemium | REST |
 | [Toss Certification (토스인증서)](https://toss.im/tosscert/docs/guides/integration/user) | Toss-app identity auth; integrable directly or via BaroCert | KO | oauth | ⚠️ unverified, contact required | paid | REST |
-| [Naver Certificate (네이버 인증서)](https://developers.naver.com/) | Naver-app identity auth; usually via BaroCert | KO | oauth | ⚠️ Korean-only portal | freemium | REST |
+| [Naver Certificate (네이버 인증서)](https://developers.naver.com/main/) | Naver-app identity auth; usually via BaroCert | KO | oauth | ⚠️ Korean-only portal | freemium | REST |
 
 <sub>[↑ back to top](#contents)</sub>
 
@@ -107,9 +106,9 @@ Stripe coverage in Korea is partial, so builders use a Korean payment gateway (P
 
 | Service | What you get | 🌐 | 🔑 | 🛂 | 💰 | 🤖 |
 |---|---|---|---|---|---|---|
-| [PortOne (포트원)](https://portone.io/) | Single API fronting all major Korean PGs + wallets; official MCP server | EN~ | key | ⚠️ Korean business to go live (sandbox open) | freemium | MCP |
-| [PortOne Global](https://portone.io/) | Cross-border orchestration for non-Korean entities (SEA + Korea) | EN | key | ✅ built for global merchants | paid | SDK |
-| [Bootpay (부트페이)](https://www.bootpay.co.kr/) | Lighter PG aggregator popular with Korean indie devs | KO | key | ⚠️ unverified | freemium | SDK |
+| [PortOne (포트원)](https://www.portone.io/) | Single API fronting all major Korean PGs + wallets; official MCP server | EN~ | key | ⚠️ Korean business to go live (sandbox open) | freemium | MCP |
+| [PortOne Global](https://docs.portone.cloud/) | Cross-border orchestration for non-Korean entities (SEA + Korea) | EN | key | ✅ built for global merchants | paid | SDK |
+| [Bootpay (부트페이)](https://www.bootpay.ai/) | Lighter PG aggregator popular with Korean indie devs | KO | key | ⚠️ unverified | freemium | SDK |
 
 **Direct payment gateways (PG)**
 
@@ -126,10 +125,10 @@ Stripe coverage in Korea is partial, so builders use a Korean payment gateway (P
 | Service | What you get | 🌐 | 🔑 | 🛂 | 💰 | 🤖 |
 |---|---|---|---|---|---|---|
 | [KakaoPay (카카오페이)](https://pay.kakao.com/) | ~30M+ users; in-app/web/QR; one-time + recurring | KO | oauth | ⚠️ via Stripe/Paddle/KOMOJU/PortOne | paid | REST |
-| [Naver Pay (네이버페이)](https://pay.naver.com/) | ~30M MAU; strong in SmartStore ecosystem | KO | key | ⚠️ via aggregator/PG | paid | REST |
+| [Naver Pay (네이버페이)](https://developers.pay.naver.com/) | ~30M MAU; strong in SmartStore ecosystem | KO | key | ⚠️ via aggregator/PG | paid | REST |
 | [Toss Pay (토스페이)](https://pay.toss.im/) | Toss app wallet (distinct from Toss Payments) | KO | key | ⚠️ via KOMOJU/Paymentwall | paid | REST |
 | [PAYCO](https://www.payco.com/) | NHN wallet; strong in gaming/entertainment | KO | key | ⚠️ via Stripe/Paddle/KOMOJU | paid | REST |
-| [Samsung Pay](https://pay.samsung.com/developers) | NFC + MST device wallet; ~18% of KR mobile payments | EN | cert | ⚠️ Samsung partnership application | paid | SDK |
+| [Samsung Pay](https://developer.samsung.com/pay) | NFC + MST device wallet; ~18% of KR mobile payments | EN | cert | ⚠️ Samsung partnership application | paid | SDK |
 | [Apple Pay](https://developer.apple.com/apple-pay/) | Works globally, but Korea card coverage is very limited | EN | oauth | ✅ but low KR conversion impact | free | SDK |
 
 **Global options that work for Korea without a Korean entity**
@@ -151,7 +150,7 @@ Google Maps is intentionally limited in Korea (no driving directions, sparse dat
 
 | Service | What you get | 🌐 | 🔑 | 🛂 | 💰 | 🤖 |
 |---|---|---|---|---|---|---|
-| [Kakao Maps + Local API](https://developers.kakao.com/docs/latest/en/local/dev-guide) | Map display, place/keyword search, geocoding, reverse geocoding, coord transforms | EN | key | ✅ foreign phone accepted (3-5 day review) | freemium | MCP |
+| [Kakao Maps + Local API](https://developers.kakao.com/docs/en/local/dev-guide) | Map display, place/keyword search, geocoding, reverse geocoding, coord transforms | EN | key | ✅ foreign phone accepted (3-5 day review) | freemium | MCP |
 | [Kakao Navi](https://developers.kakao.com/) | Turn-by-turn route data and navigation deeplinks | KO | key | ✅ same Kakao account | freemium | REST |
 | [Naver Maps (Naver Cloud Platform)](https://guide.ncloud-docs.com/docs/en/maps-overview) | Map SDKs, Static Map, Directions (5/15 waypoints), geocoding; richest KR data | EN | key | ⚠️ personal needs KR phone + ARC; business accounts in 15 countries | freemium | MCP |
 | [TMap API (SK Telecom)](https://tmapapi.tmapmobility.com/main.html) | Maps, car/truck/pedestrian routing, POI, traffic, geofencing | KO | key | ⚠️ unverified (SK Open API, KR-only portal) | freemium | REST |
@@ -171,10 +170,10 @@ Korean addresses come in two systems (road-name 도로명주소 and land-lot 지
 | Service | What you get | 🌐 | 🔑 | 🛂 | 💰 | 🤖 |
 |---|---|---|---|---|---|---|
 | [Juso Road-Name Address API (행정안전부)](https://www.juso.go.kr/openEngPage.do) | Authoritative address lookup + structured codes + embeddable popup | EN~ | key | ⚠️ Korean phone (본인인증) or i-PIN to register | free | REST |
-| [Kakao Address Search (Local API)](https://developers.kakao.com/docs/latest/en/local/dev-guide) | Address-to-coords and reverse, road-name + land-lot, JSON/XML | EN | key | ✅ same Kakao account path | freemium | REST |
-| [Daum Postcode Service](https://postcode.map.daum.net/guide) | The de facto embeddable postcode/address widget for web forms | KO | none | ✅ no signup, script embed only | free | REST |
+| [Kakao Address Search (Local API)](https://developers.kakao.com/docs/en/local/dev-guide) | Address-to-coords and reverse, road-name + land-lot, JSON/XML | EN | key | ✅ same Kakao account path | freemium | REST |
+| [Kakao Postcode Service (formerly Daum Postcode)](https://postcode.map.kakao.com/guide) | The de facto embeddable postcode/address widget for web forms | KO | none | ✅ no signup, script embed only | free | REST |
 
-> Daum Postcode is the only entry in this list with zero registration friction: no key, two lines of script.
+> Kakao Postcode is the only entry in this list with zero registration friction: no key, two lines of script.
 
 <sub>[↑ back to top](#contents)</sub>
 
@@ -191,7 +190,7 @@ In Korea, KakaoTalk (not email or SMS) is the channel users expect for transacti
 | [Kakao i Connect Message (dk techin)](https://docs.kakaoi.ai/kakao_i_connect_message/bizmessage_eng/) | Official Kakao-licensed AlimTalk/FriendTalk/SMS/RCS platform | EN | oauth | ⚠️ channel + service contract | paid | REST |
 | [Solapi (솔라피)](https://solapi.com/) | Popular CPaaS reseller; AlimTalk, SMS/LMS/MMS, RCS; SDKs in 6 languages | KO | key | ⚠️ unverified (phone-verified signup) | freemium | SDK |
 | [Aligo (알리고)](https://smartsms.aligo.in/alimapi.html) | Budget SMS + AlimTalk reseller popular with KR SMBs | KO | key | ⚠️ unverified | freemium | REST |
-| [Bizm (비즈엠)](https://alimtalk-api.bizmsg.kr/) | AlimTalk + SMS reseller used by KR logistics/commerce | KO | key | ⚠️ unverified | paid | REST |
+| [Bizm (비즈엠)](https://www.bizmsg.kr/) | AlimTalk + SMS reseller used by KR logistics/commerce | KO | key | ⚠️ unverified | paid | REST |
 | [Infobip KakaoTalk](https://www.infobip.com/docs/kakaotalk) | Enterprise CPaaS, English AlimTalk/FriendTalk | EN | key | ⚠️ Korean business license required for channel | paid | REST |
 | [Sinch KakaoTalk](https://developers.sinch.com/docs/conversation/channel-support/kakaotalk) | AlimTalk/FriendTalk via unified Conversation API | EN | key | ⚠️ channel + template approval | paid | REST |
 | [Twilio (Korea SMS)](https://www.twilio.com/en-us/guidelines/kr/sms) | Standard SMS/MMS to KR numbers (no KakaoTalk) | EN | key | ✅ fully self-serve | paid | SDK |
@@ -215,7 +214,7 @@ Models and APIs that handle Korean well. **Upstage Solar is the foreigner-friend
 | [CLOVA Voice (TTS)](https://api.ncloud-docs.com/docs/en/ai-naver-clovavoice) | Korean neural text-to-speech | EN | key | ⚠️ NCP account | freemium | REST |
 | [Return Zero / RTZR (STT)](https://developers.rtzr.ai/docs/en/) | Popular Korean + Japanese STT; 600 free minutes | EN | key | ✅ open signup | freemium | REST |
 | [Papago Translation (Naver)](https://api.ncloud-docs.com/docs/en/ai-naver-papagonmt) | KO↔EN/ZH/JA NMT; text, image, doc, website | EN | key | ⚠️ NCP account | freemium | REST |
-| [KoNLPy](https://konlpy.org/) | Python wrapper for 5 Korean morphological analyzers | EN~ | none | ✅ pip install | free | SDK |
+| [KoNLPy](https://konlpy.org/en/latest/) | Python wrapper for 5 Korean morphological analyzers | EN~ | none | ✅ pip install | free | SDK |
 | [Kiwi (kiwipiepy)](https://github.com/bab2min/Kiwi) | Fast Korean morphological analyzer + typo correction; many bindings | EN~ | none | ✅ pip install | free | SDK |
 | [soynlp](https://github.com/lovit/soynlp) | Unsupervised Korean tokenizer/noun extractor (maintenance-mode) | KO | none | ✅ pip install | free | SDK |
 | [KLUE / KLUE-BERT](https://github.com/KLUE-benchmark/KLUE) | 8-task Korean NLU benchmark + pretrained baselines | EN | none | ✅ via Hugging Face | free | SDK |
@@ -236,7 +235,6 @@ Real, repo-confirmed MCP servers for Korean services, so an agent (Claude, Curso
 | [law-mcp](https://github.com/finalchild/law-mcp) | Korean statutes via law.go.kr | community | KO | ✅ | free |
 | [assembly-api-mcp](https://github.com/hollobit/assembly-api-mcp) | National Assembly bills, schedules, budget | community | KO | ✅ | free |
 | [mcp-korea-tourism-api](https://github.com/harimkang/mcp-korea-tourism-api) | Korea Tourism Org attractions/events/stays | community | EN~ | ✅ | free |
-| [KMA-WEATHER-MCP](https://github.com/woongaro/KMA-WEATHER-MCP) | Korea Meteorological Administration forecasts | community | KO | ✅ | free |
 | [kakao-navigation-mcp-server](https://github.com/CaChiJ/kakao-navigation-mcp-server) | Kakao geocode + routing + transit + place search | community | KO | ⚠️ Kakao key | free |
 | [mcp-server-kakao-map](https://github.com/cgoinglove/mcp-server-kakao-map) | Kakao place/restaurant recommendations | community | KO | ⚠️ Kakao key | free |
 | [naver-map-mcp](https://github.com/num2k/naver-map-mcp) | Naver geocoding, reverse geocoding, Directions 5/15 | community | KO | ⚠️ NCP key | free |
@@ -271,9 +269,9 @@ Selling physical goods or building on a Korean storefront. Note the entity wall:
 
 | Service | What you get | 🌐 | 🔑 | 🛂 | 💰 | 🤖 |
 |---|---|---|---|---|---|---|
-| [Cafe24 REST API (카페24)](https://developers.cafe24.com/docs/en/api/) | Full store API (products, orders, customers, inventory); ~2M stores | EN | oauth | ✅ foreign developer registration | free | REST |
+| [Cafe24 REST API (카페24)](https://apidocs.cafe24.com/en/docs/guide/intro) | Full store API (products, orders, customers, inventory); ~2M stores | EN | oauth | ✅ foreign developer registration | free | REST |
 | [Coupang Global Sellers](https://globalsellers.coupang.com/en/) | Cross-border selling on Coupang, ship from home country | EN | key | ✅ no Korean entity required | free | REST |
-| [Coupang Open API (domestic)](https://developers.coupangcorp.com/hc/en-us) | Product/order/shipment for a domestic Coupang seller account | EN | key | ❌ Korean legal entity required | free | REST |
+| [Coupang Open API (domestic)](https://developers.coupang.com/en) | Product/order/shipment for a domestic Coupang seller account | EN | key | ❌ Korean legal entity required | free | REST |
 | [Naver Commerce API (SmartStore)](https://github.com/commerce-api-naver/commerce-api) | Order/product/seller management for SmartStore | KO | oauth | ❌ Korean business + bank account | free | REST |
 | [Imweb Open API (아임웹)](https://developers-docs.imweb.me/) | Order/product/member data for Imweb stores | KO | key | ⚠️ unverified (KR-only console) | free | REST |
 | [AfterShip (Korea carriers)](https://www.aftership.com/tracking-api) | Unified tracking for Korea Post, CJ, Lotte + 1,200 global carriers | EN | key | ✅ self-serve, free tier | freemium | REST |
@@ -295,7 +293,7 @@ If you are not just calling Korean APIs but founding a company here, Korea runs 
 | [OASIS Startup Visa Track (D-8-4 / D-10-2)](http://www.oasisvisa.com/about.html) | Points-based path to the technology startup visa (창업비자): entrepreneurship courses, mentoring, incubation, IP support. OASIS-9 adds a commercialization grant and a 6-month preparation visa | EN~ | ⚠️ most points require being in Korea first; the D-8-4(S) special track can be applied for via your local Korean embassy |
 | [K-Startup Portal (k-startup.go.kr)](https://www.k-startup.go.kr/) | The central listing of every government startup program, open call, and application link. A directory, not a program | EN~ | ⚠️ usable, but foreigners must first register real-name ID via [siren24.com](https://www.siren24.com) |
 | [Startup Packages (예비창업 / 초기창업 / 창업도약)](https://www.kised.or.kr/menu.es?mid=a10205020000) | Domestic grants run by KISED, scaling with company age: Pre-Startup, Early-stage, and Leap packages | KO | ❌ built for residents; needs a Korean business registration, which needs an ARC or a foreign-investment route first |
-| [TIPS (Tech Incubator Program)](https://www.jointips.or.kr/global/) | Large R&D grants, with Scale-up and Global TIPS tiers on top. Routed through accredited operating companies that must recommend you | EN~ | ⚠️ needs a Korean entity plus operating-company sponsorship; Global TIPS expects significant overseas VC |
+| [TIPS (Tech Incubator Program)](https://jointips.or.kr/intro/about) | Large R&D grants, with Scale-up and Global TIPS tiers on top. Routed through accredited operating companies that must recommend you | KO | ⚠️ needs a Korean entity plus operating-company sponsorship; Global TIPS expects significant overseas VC |
 | [SparkLabs Korea](https://www.sparklabs.co.kr/sp/program.php) | Private accelerator: seed investment for equity, a multi-week program, and a large mentor network, run in batches each year | EN | ✅ accepts applications globally |
 
 Two honest caveats:
@@ -312,7 +310,7 @@ Two honest caveats:
 Not pluggable APIs, but the legal tripwires most likely to surprise a foreign builder. Verify against the official source before relying on any of these.
 
 - **Google Maps is restricted by law.** The National Geospatial Intelligence Act limits export of high-resolution map data, so Google disabled turn-by-turn and detailed mapping in Korea. Use Kakao or Naver, which licensed the government data. (See [Maps](#️-maps--location).)
-- **[PIPA](https://www.pipc.go.kr/eng/) applies even with no Korean office** if you provide goods/services to Korean users. Requires a Korean-language privacy policy, separate (unbundled) consent per purpose, a retention/destruction schedule, and 72-hour breach notification. ([PIPA in English](https://elaw.klri.re.kr/eng_service/lawView.do?hseq=62389&lang=ENG))
+- **[PIPA](https://pipc.go.kr/eng/) applies even with no Korean office** if you provide goods/services to Korean users. Requires a Korean-language privacy policy, separate (unbundled) consent per purpose, a retention/destruction schedule, and 72-hour breach notification. ([PIPA in English](https://elaw.klri.re.kr/eng_service/lawView.do?hseq=62389&lang=ENG))
 - **Cross-border data transfer needs consent.** Under PIPA, transferring Korean users' personal data abroad needs separate consent unless the destination has a PIPC adequacy decision. Remote DB access by an overseas team counts as a transfer.
 - **The Location Information Act (위치정보법) gates location services.** Collecting or routing personal location data requires KCC registration; offering a location-based service requires KCC reporting. Most foreign startups don't know this law exists. ([English text](https://elaw.klri.re.kr/eng_service/lawView.do?hseq=43349&lang=EN))
 - **The Network Act (정보통신망법) triggers ISMS-P at scale.** ISMS-P certification (KISA) becomes mandatory around 1M daily Korean users or ~₩10B Korean revenue; a Korean domestic agent is required above certain thresholds. *(Verify current thresholds against [law.go.kr](https://law.go.kr) before relying.)*

@@ -12,7 +12,7 @@ Dùng được từ nước ngoài chỉ với một key miễn phí, không c�
 
 - [PortOne MCP](https://github.com/portone-io/mcp-server) - Thanh toán Hàn Quốc (Toss, KakaoPay, NaverPay) qua một endpoint MCP chính thức.
 - [Upstage Solar](https://www.upstage.ai) - LLM song ngữ Hàn/Anh, tương thích OpenAI, đăng ký toàn cầu.
-- [Kakao Login](https://developers.kakao.com/docs/latest/en/kakaologin/rest-api) - OAuth cho ~47 triệu người dùng; tài liệu tiếng Anh; chấp nhận số điện thoại nước ngoài.
+- [Kakao Login](https://developers.kakao.com/docs/en/kakaologin/rest-api) - OAuth cho ~47 triệu người dùng; tài liệu tiếng Anh; chấp nhận số điện thoại nước ngoài.
 - [Cổng dữ liệu công (data.go.kr)](https://www.data.go.kr/en/index.do) - Hơn 70.000 bộ dữ liệu chính phủ; cổng tiếng Anh, đăng ký bằng email.
 - [Stripe (phương thức Hàn Quốc)](https://docs.stripe.com/payments/countries/korea) - Thẻ và ví Hàn Quốc mà không cần pháp nhân Hàn Quốc.
 

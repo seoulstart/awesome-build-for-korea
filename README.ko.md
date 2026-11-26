@@ -12,7 +12,7 @@
 
 - [PortOne MCP](https://github.com/portone-io/mcp-server) - 토스, 카카오페이, 네이버페이 결제를 공식 MCP 엔드포인트 하나로.
 - [Upstage Solar](https://www.upstage.ai) - 한국어/영어 이중 언어 LLM, OpenAI 호환, 글로벌 가입.
-- [Kakao 로그인](https://developers.kakao.com/docs/latest/en/kakaologin/rest-api) - 약 4,700만 사용자 대상 OAuth, 영문 문서, 해외 전화번호 가능.
+- [Kakao 로그인](https://developers.kakao.com/docs/en/kakaologin/rest-api) - 약 4,700만 사용자 대상 OAuth, 영문 문서, 해외 전화번호 가능.
 - [공공데이터포털 (data.go.kr)](https://www.data.go.kr/en/index.do) - 7만 개 이상 정부 데이터셋, 영문 포털, 이메일 가입.
 - [Stripe (한국 결제수단)](https://docs.stripe.com/payments/countries/korea) - 한국 사업자 없이 한국 카드와 간편결제 지원.
 

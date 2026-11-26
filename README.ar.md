@@ -12,7 +12,7 @@
 
 - [PortOne MCP](https://github.com/portone-io/mcp-server) - مدفوعات كورية (Toss وKakaoPay وNaverPay) عبر نقطة وصول MCP رسمية واحدة.
 - [Upstage Solar](https://www.upstage.ai) - نموذج لغوي ثنائي اللغة كوري/إنجليزي، متوافق مع OpenAI، تسجيل عالمي.
-- [Kakao Login](https://developers.kakao.com/docs/latest/en/kakaologin/rest-api) - OAuth لنحو 47 مليون مستخدم؛ توثيق بالإنجليزية؛ يقبل أرقام هواتف أجنبية.
+- [Kakao Login](https://developers.kakao.com/docs/en/kakaologin/rest-api) - OAuth لنحو 47 مليون مستخدم؛ توثيق بالإنجليزية؛ يقبل أرقام هواتف أجنبية.
 - [بوابة البيانات العامة (data.go.kr)](https://www.data.go.kr/en/index.do) - أكثر من 70,000 مجموعة بيانات حكومية؛ بوابة بالإنجليزية، تسجيل بالبريد الإلكتروني.
 - [Stripe (طرق كوريا)](https://docs.stripe.com/payments/countries/korea) - بطاقات ومحافظ كورية دون كيان كوري.
 

@@ -12,7 +12,7 @@ Utilizzabili dall'estero con una chiave gratuita, senza azienda o residenza core
 
 - [PortOne MCP](https://github.com/portone-io/mcp-server) - Pagamenti coreani (Toss, KakaoPay, NaverPay) tramite un unico endpoint MCP ufficiale.
 - [Upstage Solar](https://www.upstage.ai) - LLM bilingue coreano/inglese, compatibile con OpenAI, registrazione globale.
-- [Kakao Login](https://developers.kakao.com/docs/latest/en/kakaologin/rest-api) - OAuth per ~47 milioni di utenti; documentazione in inglese; accetta numeri di telefono stranieri.
+- [Kakao Login](https://developers.kakao.com/docs/en/kakaologin/rest-api) - OAuth per ~47 milioni di utenti; documentazione in inglese; accetta numeri di telefono stranieri.
 - [Portale dei dati pubblici (data.go.kr)](https://www.data.go.kr/en/index.do) - Oltre 70.000 dataset governativi; portale in inglese, registrazione via e-mail.
 - [Stripe (metodi Corea)](https://docs.stripe.com/payments/countries/korea) - Carte e wallet coreani senza un'entità coreana.
 
