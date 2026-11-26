@@ -28,6 +28,16 @@ Fill the five signals honestly using the [Legend](README.md#legend):
 - 💰 **Cost**: `free`, `freemium`, `paid`
 - 🤖 **AI-ready**: `MCP`, `SDK`, or `REST`
 
+## Before you open a PR
+
+Run the linter on the English README:
+
+```
+npx awesome-lint README.md
+```
+
+It checks that table pipes line up, that each URL appears only once, and that list items read `- [Name](URL) - Description.` If aligning a table by hand is painful, open the PR anyway and say so; the maintainer can realign it. The translated READMEs are short summaries, so a new entry only needs to go into `README.md`.
+
 ## The one hard rule
 
 **Do not guess the foreigner-access (🛂) rating.** It is the whole value of this list. If you have not personally tried to sign up from outside Korea, or confirmed it from official docs, mark the entry `⚠️ unverified` and say so in your PR. A wrong ✅ wastes a builder's day.
