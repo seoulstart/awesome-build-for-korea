@@ -18,7 +18,7 @@ Dùng được từ nước ngoài chỉ với một key miễn phí, không c�
 
 ## Xem danh sách đầy đủ theo chủ đề
 
-README tiếng Anh sắp xếp mọi thứ theo từng lớp: công cụ cho builder AI, định danh và xác thực, thanh toán, bản đồ và vị trí, địa chỉ và mã bưu chính, nhắn tin và kênh, LLM cho tiếng Hàn, máy chủ MCP, dữ liệu công và chính phủ, thương mại và logistics, cùng các cạm bẫy tuân thủ. → [README tiếng Anh](README.md)
+README tiếng Anh sắp xếp mọi thứ theo từng lớp: công cụ cho builder AI, định danh và xác thực, thanh toán, bản đồ và vị trí, địa chỉ và mã bưu chính, nhắn tin và kênh, LLM cho tiếng Hàn, máy chủ MCP, dữ liệu công và chính phủ, thương mại và logistics, hỗ trợ và tài trợ cho startup, cùng các cạm bẫy tuân thủ. → [README tiếng Anh](README.md)
 
 ## Đóng góp
 

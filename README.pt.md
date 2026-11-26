@@ -18,7 +18,7 @@ Funcionam de fora da Coreia com uma chave gratuita e sem empresa ou residência 
 
 ## Veja a lista completa por tema
 
-O README em inglês organiza tudo por camadas: ferramentas para builders de IA, identidade e autenticação, pagamentos, mapas e localização, endereços e CEP, mensageria e canais, LLM para coreano, servidores MCP, dados públicos e do governo, comércio e logística, e armadilhas de conformidade. → [README em inglês](README.md)
+O README em inglês organiza tudo por camadas: ferramentas para builders de IA, identidade e autenticação, pagamentos, mapas e localização, endereços e CEP, mensageria e canais, LLM para coreano, servidores MCP, dados públicos e do governo, comércio e logística, apoio e financiamento para startups, e armadilhas de conformidade. → [README em inglês](README.md)
 
 ## Contribuir
 

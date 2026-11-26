@@ -18,7 +18,7 @@ Utilizzabili dall'estero con una chiave gratuita, senza azienda o residenza core
 
 ## Sfoglia l'elenco completo per argomento
 
-Il README in inglese organizza tutto per livelli: strumenti per builder IA, identità e autenticazione, pagamenti, mappe e localizzazione, indirizzi e CAP, messaggistica e canali, LLM per il coreano, server MCP, dati pubblici e governativi, commercio e logistica, e trappole di conformità. → [README in inglese](README.md)
+Il README in inglese organizza tutto per livelli: strumenti per builder IA, identità e autenticazione, pagamenti, mappe e localizzazione, indirizzi e CAP, messaggistica e canali, LLM per il coreano, server MCP, dati pubblici e governativi, commercio e logistica, supporto e finanziamenti per startup, e trappole di conformità. → [README in inglese](README.md)
 
 ## Contribuire
 

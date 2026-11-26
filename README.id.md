@@ -18,7 +18,7 @@ Bisa dipakai dari luar negeri dengan key gratis, tanpa badan usaha atau domisili
 
 ## Jelajahi daftar lengkap menurut topik
 
-README bahasa Inggris menata semuanya per lapisan: alat untuk builder AI, identitas dan autentikasi, pembayaran, peta dan lokasi, alamat dan kode pos, perpesanan dan kanal, LLM untuk bahasa Korea, server MCP, data publik dan pemerintah, perdagangan dan logistik, serta jebakan kepatuhan. → [README bahasa Inggris](README.md)
+README bahasa Inggris menata semuanya per lapisan: alat untuk builder AI, identitas dan autentikasi, pembayaran, peta dan lokasi, alamat dan kode pos, perpesanan dan kanal, LLM untuk bahasa Korea, server MCP, data publik dan pemerintah, perdagangan dan logistik, dukungan dan pendanaan startup, serta jebakan kepatuhan. → [README bahasa Inggris](README.md)
 
 ## Berkontribusi
 

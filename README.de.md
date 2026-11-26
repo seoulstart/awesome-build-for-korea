@@ -18,7 +18,7 @@ Aus dem Ausland mit einem kostenlosen Key nutzbar, ohne koreanisches Unternehmen
 
 ## Die vollständige Liste nach Thema durchstöbern
 
-Das englische README ordnet alles nach Ebenen: KI-Builder-Tools, Identität und Authentifizierung, Zahlungen, Karten und Standort, Adressen und Postleitzahlen, Messaging und Kanäle, LLMs für Koreanisch, MCP-Server, öffentliche und Behördendaten, Commerce und Logistik sowie Compliance-Fallstricke. → [englisches README](README.md)
+Das englische README ordnet alles nach Ebenen: KI-Builder-Tools, Identität und Authentifizierung, Zahlungen, Karten und Standort, Adressen und Postleitzahlen, Messaging und Kanäle, LLMs für Koreanisch, MCP-Server, öffentliche und Behördendaten, Commerce und Logistik, Startup-Förderung und Finanzierung sowie Compliance-Fallstricke. → [englisches README](README.md)
 
 ## Mitwirken
 

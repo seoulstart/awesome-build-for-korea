@@ -18,7 +18,7 @@ Boleh digunakan dari luar negara dengan key percuma, tanpa perniagaan atau kedia
 
 ## Layari senarai penuh mengikut topik
 
-README bahasa Inggeris menyusun semuanya mengikut lapisan: alat untuk builder AI, identiti dan pengesahan, pembayaran, peta dan lokasi, alamat dan poskod, pemesejan dan saluran, LLM untuk bahasa Korea, pelayan MCP, data awam dan kerajaan, perdagangan dan logistik, serta perangkap pematuhan. → [README bahasa Inggeris](README.md)
+README bahasa Inggeris menyusun semuanya mengikut lapisan: alat untuk builder AI, identiti dan pengesahan, pembayaran, peta dan lokasi, alamat dan poskod, pemesejan dan saluran, LLM untuk bahasa Korea, pelayan MCP, data awam dan kerajaan, perdagangan dan logistik, sokongan dan pembiayaan startup, serta perangkap pematuhan. → [README bahasa Inggeris](README.md)
 
 ## Menyumbang
 

@@ -18,7 +18,7 @@ Utilisables depuis l'étranger avec une clé gratuite, sans entreprise ni résid
 
 ## Parcourir la liste complète par thème
 
-Le README en anglais organise tout par couche : outils pour builders IA, identité et authentification, paiements, cartes et localisation, adresses et codes postaux, messagerie et canaux, LLM pour le coréen, serveurs MCP, données publiques et gouvernementales, commerce et logistique, et pièges de conformité. → [README en anglais](README.md)
+Le README en anglais organise tout par couche : outils pour builders IA, identité et authentification, paiements, cartes et localisation, adresses et codes postaux, messagerie et canaux, LLM pour le coréen, serveurs MCP, données publiques et gouvernementales, commerce et logistique, soutien et financement des startups, et pièges de conformité. → [README en anglais](README.md)
 
 ## Contribuer
 
