@@ -334,6 +334,7 @@ Other focused lists worth a look:
 
 - [public-apis-4Kr](https://github.com/yybmion/public-apis-4Kr) — broad catalog of APIs available for Korean services.
 - [awesome-mcp-korea](https://github.com/darjeeling/awesome-mcp-korea) — full catalog of MCP servers for the Korean market.
+- [Korea Agent Map](https://koreaagentmap.com) — what AI agents can and can't do with Korean services: task guides, per-service agent-access status, and a daily-ranked list of Korean MCP servers and agent skills.
 
 ## FAQ
 
