@@ -231,8 +231,12 @@ Real, repo-confirmed MCP servers for Korean services, so an agent (Claude, Curso
 |---|---|---|---|---|---|
 | [PortOne MCP](https://github.com/portone-io/mcp-server) | PortOne payment docs, channels, payment history | official | EN | ✅ | free |
 | [PortOne Global MCP](https://github.com/iamport-intl/portone-global-mcp-server) | PortOne Global docs + OpenAPI schemas | official | EN | ✅ | free |
+| [Toss Payments Integration Guide MCP](https://docs.tosspayments.com/guides/v2/get-started/llms-guide) | Toss Payments v2 integration docs and sample code for coding agents, plus llms.txt | official | KO | ✅ | free |
+| [KIS Open API MCP (한국투자증권)](https://github.com/koreainvestment/open-trading-api/tree/main/MCP) | Code Assistant MCP (API docs and sample code search) and Trading MCP (quotes, balances and orders for Korean and overseas stocks) | official | KO | ⚠️ trading needs a Korea Investment & Securities account and Open API key | free |
+| [Kakao PlayMCP](https://playmcp.kakao.com/) | Kakao's MCP hub: Kakao's own tools (KakaoTalk, Kakao Map) plus remote MCP servers that developers register and test in AI chat | official | KO | ⚠️ Kakao account; a developer reported the sign-up identity check failing with a non-Korean phone | free |
 | [korea-stock-mcp](https://github.com/jjlabsio/korea-stock-mcp) | DART disclosures + KRX prices/financials | community | KO | ✅ | free |
 | [korean-law-mcp](https://github.com/chrisryugj/korean-law-mcp) | Statutes, ordinances and court rulings via the Ministry of Government Legislation (법제처) Open API; the hosted server works without a key at a shared rate limit (your own key needs a Korean phone or i-PIN) | community | EN~ | ✅ | free |
+| [kordoc](https://github.com/chrisryugj/kordoc) | Reads HWP, HWPX, PDF and Office files into Markdown and writes HWPX documents in Korean government format; library, CLI and MCP server | community | EN~ | ✅ npm, no key | free |
 | [assembly-api-mcp](https://github.com/hollobit/assembly-api-mcp) | National Assembly bills, schedules, budget | community | KO | ✅ | free |
 | [mcp-korea-tourism-api](https://github.com/harimkang/mcp-korea-tourism-api) | Korea Tourism Org attractions/events/stays | community | EN~ | ✅ | free |
 | [kakao-navigation-mcp-server](https://github.com/CaChiJ/kakao-navigation-mcp-server) | Kakao geocode + routing + transit + place search | community | KO | ⚠️ Kakao key | free |
